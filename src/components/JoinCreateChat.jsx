@@ -101,7 +101,7 @@ const JoinCreateChat = () => {
                 name='roomId'
                 onChange={handleInputChange}
                 value={detail.roomId}
-                placeholder='Enter room ID or create a new one'
+                placeholder='Enter room ID (minimum 6 characters)'
                 type='text' id='name' className='w-full dark:bg-gray-600 px-4 py-2 border dark:border-gray-600 rounded-full focus:outline-none' />
             </div>
 
