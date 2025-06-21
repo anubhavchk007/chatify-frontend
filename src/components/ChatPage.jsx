@@ -126,7 +126,7 @@ const ChatPage = () => {
         <header className='dark:border-gray-700 fixed w-full dark:bg-gray-900 py-5 shadow flex justify-around items-center'>
             <div>
                 <h1 className="text-xl font-semibold">
-                    Room : <span>Family Room</span>
+                    Room ID: <span>{roomId}</span>
                 </h1>
             </div>
             <div>
