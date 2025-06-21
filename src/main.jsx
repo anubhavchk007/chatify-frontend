@@ -6,10 +6,10 @@ import AppRoutes from './config/MyRoutes.jsx'
 import { ChatProvider } from './context/ChatContext.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <HashRouter>
+  <BrowserRouter>
     <Toaster />
     <ChatProvider>
       <AppRoutes />
     </ChatProvider>
-  </HashRouter>
+  </BrowserRouter>
 )
