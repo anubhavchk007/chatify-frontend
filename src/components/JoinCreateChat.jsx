@@ -19,6 +19,7 @@ const JoinCreateChat = () => {
             toast.error('Please fill in all fields');
             return false;
         }
+        if (detail.roomId.length < 6) return false;
         return true;
     }
 
