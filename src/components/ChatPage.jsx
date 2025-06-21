@@ -223,6 +223,7 @@ const ChatPage = () => {
                     <button className='dark:transparent h-11 w-11 flex mr-2 hover:dark:bg-slate-600 active:dark:bg-gray-700 justify-center items-center px-3 py-2 rounded-full'>
                         <MdAttachFile className='h-6 w-6'/>
                     </button>
+                    
                     <button 
                     onClick={sendMessage}
                     className='dark:bg-green-600 hover:dark:bg-green-500 active:dark:bg-green-700 h-11 w-11 flex mr-3 justify-center items-center px-3 py-2 rounded-full'>
